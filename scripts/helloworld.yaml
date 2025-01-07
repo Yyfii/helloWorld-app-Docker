@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: helloworld-pod
+  labels:
+    app: helloapp
+spec:
+  containers:
+    - name: helloworld
+      image: ana2234/hello:latest
