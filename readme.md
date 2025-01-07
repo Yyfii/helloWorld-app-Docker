@@ -9,7 +9,30 @@ Requirements:
 - Kubernetes activated.
   Run : `kubectl get all`
 
-## Create a docker image
+## Table of Contents
+
+1. [Folder structure](#folder-structure)
+2. [Creating the image](#creating-the-image)
+3. [Testing the image](#testing-the-image)
+4. [Creating the application hello world](#creating-the-application-hello-world)
+
+---
+
+## Folder structure
+
+```
+helloWorld/
+├── scripts/
+├────── helloworld.yaml
+├────── service.yaml
+```
+
+- helloworld.yaml: To create the pod
+- service.yaml: To create the service.
+
+You can find these files in the `/scripts` folder in the current repository.
+
+## Creating the image
 
 The following content will create the image for our container. **You don´t need to create a new one, so don´t follow this step**
 
