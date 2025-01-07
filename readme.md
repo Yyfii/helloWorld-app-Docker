@@ -1,4 +1,12 @@
-# Creating a hello world container docker.
+# Creating a hello world application.
+
+<p align="center">
+  <img src="hello.png" alt="Project Header" width="1000">
+</p>
+
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)](https://nginx.org/)
+[![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)](https://kubernetes.io/)
 
 ![alt text](container_hello_diagram.jpeg)
 
